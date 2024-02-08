@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.page {
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    color: #4CAF50;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Cookie Button Styles */
+button#cookie {
+    background: none;
+    border: none;
+}
+
+#cookie img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+#cookie:hover img {
+    transform: scale(1.1);
+}
+
+/* Message Styles */
+#message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
